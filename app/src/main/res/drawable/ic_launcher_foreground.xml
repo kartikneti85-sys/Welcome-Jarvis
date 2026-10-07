@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Arc Ring -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M 54,26 A 28,28 0 1,1 53.99,26" />
+
+    <!-- Secondary Ring with dashed gap effect -->
+    <path
+        android:strokeColor="#0AE2FF"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M 54,32 A 22,22 0 1,1 53.99,32" />
+
+    <!-- Inner Core Ring -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.0"
+        android:fillColor="#1500F0FF"
+        android:pathData="M 54,40 A 14,14 0 1,1 53.99,40" />
+
+    <!-- Center Reactor Core Glow -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M 54,48 A 6,6 0 1,1 53.99,48" />
+
+    <!-- Center Bright Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,51.5 A 2.5,2.5 0 1,1 53.99,51.5" />
+
+    <!-- Radial Power Nodes (8 reactor cooling segments) -->
+    <!-- Top -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2"
+        android:pathData="M 54,26 L 54,34" />
+    <!-- Bottom -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2"
+        android:pathData="M 54,74 L 54,82" />
+    <!-- Left -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2"
+        android:pathData="M 26,54 L 34,54" />
+    <!-- Right -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2"
+        android:pathData="M 74,54 L 82,54" />
+    <!-- Diagonals -->
+    <path
+        android:strokeColor="#0AE2FF"
+        android:strokeWidth="1.5"
+        android:pathData="M 34.2,34.2 L 39.8,39.8" />
+    <path
+        android:strokeColor="#0AE2FF"
+        android:strokeWidth="1.5"
+        android:pathData="M 73.8,73.8 L 68.2,68.2" />
+    <path
+        android:strokeColor="#0AE2FF"
+        android:strokeWidth="1.5"
+        android:pathData="M 73.8,34.2 L 68.2,39.8" />
+    <path
+        android:strokeColor="#0AE2FF"
+        android:strokeWidth="1.5"
+        android:pathData="M 34.2,73.8 L 39.8,68.2" />
+</vector>

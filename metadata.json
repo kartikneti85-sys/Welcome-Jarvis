@@ -1,0 +1,6 @@
+{
+  "name": "JARVIS",
+  "description": "High-tech AI voice assistant with live speech recognition, function calling, audio waveform HUD, and interruption handling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
